@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--Meta tegs-->
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="keywords" content="chrono game historical events learning check skill improve knowledge history images photos old photos">
+   <meta name="Author" content="Maksym Sovyk"><!--me autor-->
+   <meta name="Copyright" content="Author Rulles"><!--there is copyright-->
+   <meta property="og:title" content="Chrono Game">
+   <meta property="og:locale" content="ca_CA">
+   <title>Chrono Game</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="shortcut icon" href="ic/icon2.ico">
+</head>
+<body><!--Body-->
+   <div class="wrapper">
+      <section class="section1"></section>
+      <section class="section2">
+         <nav class="main-section">
+               <div class="modal hidden1">
+                  <div class="result-title"><h3>Results of the game 🏆</h3></div>
+                  <div class="result__points">🪙Your games points:<span id="gamepoints">0</span></div>
+                  <div class="resutl__percent">📊You everage percent of accuracy:<span id="percentaverage">0</span>%</div>
+                  <div class="result__information"><p class="result-information">💬 some information about your score</p></div>
+                  <div class="result__refresh"><button class="close-modal btns">Try again🔃</button></div>
+               </div>
+               <div class="overlay hidden1"></div>
+               <div class="menu__bord hidden2">
+                  <div class="result-title">
+                     <h3>Game Difficulty:</h3>
+                  </div>
+                  <div class="menu__ez"><button class="btnm easy__btn">😃Easy</button></div>
+                  <div class="menu__md"><button class="btnm midle__btn">😐Midle</button></div>
+                  <div class="menu__hard"><button class="btnm hard__btn">☹️Hard</button></div>
+                  <div class="menu__expert"><button class="btnm expert__btn">😡Expert</button></div>
+                  <div class="result__refresh"><button class="btnclose btns">Close Menu</button></div>
+               </div>
+               <div class="overlay2 hidden2"></div>
+               <div class="information__btn hidden3">
+                  <h3 class="inf__title txt4">Information of the game:</h3>
+                  <nav class="game__inf txt4">
+                     <p class="information__text1">
+                        💬In this game, you have to guess in which year the photo was taken. Mainly in the photo, you will see historical events.
+                        Therefore, in this way, you can test your knowledge of history or learn a lot of useful and interesting information
+                        about important events and more.
+                     </p>
+                     <p class="information__text2">
+                        💬In the game itself, you will have 5 rounds. You need to determine the year of the photo as accurately as possible. At
+                        the end of the exam, you will see information about your result!In addition, you can change the game difficulty. 
+                        At first, your game difficulty is easy but if you want you can switchit.
+                     </p>
+                  </nav>
+                  <button class="info__close btns">Close Menu</button>
+               </div>
+               <div class="overlay3 hidden3"></div>
+               <div class="menu__btn"><img src="icon1.ico" alt="sorry, we cannot find image" class="icon"></div>
+            <div class="round-title">
+               <h2>Round <span class="round">1</span></h2>
+            </div>
+            <div class="main-image">
+               <div class="photo">
+                  <img src="images/photo1.jpg" alt="" class="image">
+                  <div class="zoom__image"><img src="images/photo1.jpg" alt="" class="image1"></div>
+               </div>
+            </div>
+            <div class="main-input">
+               <div class="input__year">
+                  <div class="input__space"><label for="input" class="num">1955</label></div>
+                  <input type="range" class="input" min="1890" max="2023">
+               </div>
+            </div>
+            <div class="button">
+               <div class="btn__submit">
+                  <button class="btn btns">Submit</button>
+                  <button class="info">❔</button>
+               </div>
+            </div>
+            <div class="information">
+               <div class="score hidden">
+                  <div class="player__score space23">
+                     Your score is: <span id="player__score1">0</span>
+                  </div>
+                  <div class="currect__score space23">
+                     The correct year is: <span id="correct__year">0</span>
+                  </div>
+                  <div class="photo__story space23">
+                     <span class="ds1" id="description">Description</span><span id="player__story1" class="ds1"></span>
+                  </div>
+                  <div class="button__nextround">
+                     <div class="next-one">
+                        <button class="btns next__btn">Next round</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </section>
+      <sectoin class="section3"></sectoin>
+   </div>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
